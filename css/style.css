@@ -285,8 +285,18 @@ body  {
 #main {
     width: 100%;
 
-    #light-image-on {
-        transform: scaleX(-1);
+    #light-image {
+        width: 200px;
+    }
+
+    .mirrored {
+        margin-left: -30px
+    }
+
+    #light-button {
+        display: block;
+        margin-left: 40px;
+        width: 100px;
     }
 }
 
