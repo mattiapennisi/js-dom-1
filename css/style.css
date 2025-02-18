@@ -284,6 +284,10 @@ body  {
 
 #main {
     width: 100%;
+
+    #light-image-on {
+        transform: scaleX(-1);
+    }
 }
 
 /* Footer */
